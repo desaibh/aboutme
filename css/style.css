@@ -1,8 +1,7 @@
 html {
   box-sizing: border-box;
-  background-color: #092d6c;
-  background-image: linear-gradient(-180deg,#092d6c 0,#10659c 40%,#7babbf 68%,#e9c39f 85%,#ff9a4a 100%);
-  height: 100vh;
+  background-color: #070347;
+]  height: 100vh;
 }
 body {
   margin: 0px;
@@ -188,10 +187,10 @@ a {
 		min-height: 90px;
 	}
   #resumecontent a {
-    color: #262262;
+    color: #070347;
   }
-	h3 {
-		background: #262262;
+	#resumecontent h3 {
+		background: #070347;
 		color: white;
 		font-family: Copperplate, Verdana, Geneva, sans-serif;
 		font-variant:small-caps;
