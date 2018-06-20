@@ -23,6 +23,28 @@ body {
 	background-origin: content-box;
     background-position: top;
 }
+.center {
+  width: 100vw;
+}
+.downarrow {
+  transform: rotate(90deg);
+  color: white;
+  font-size: 50px;
+  background: url('../images/circle.svg');
+  background-repeat: no-repeat;
+  height:70px;
+  width:70px;
+  margin: 0 auto;
+  bottom: 0px;
+  left: 48%;
+  position: absolute;
+}
+.downarrow .inner {
+  margin-left: 25px;
+}
+.downarrow .inner a {
+  text-decoration: none;
+}
 *, *:before, *:after {
   box-sizing: inherit
 }
@@ -30,6 +52,7 @@ h1, h2 {
   font-variant: small-caps;
   font-family: Copperplate, "Copperplate Gothic Light", fantasy;
   letter-spacing: 2px;
+  text-align: center;
 }
 h3 {
   font-variant: small-caps;
@@ -57,8 +80,9 @@ footer {
 button {
 
 }
-#container {
+.container {
  padding: 0px;
+ min-height: 500px;
 }
 #menu {
 
@@ -127,9 +151,74 @@ a {
   flex: 5;
 }
 
-#resume {
-
+#resumecontent {
+  background: white;
+  color: black;
+  font-family: Garamond, monospace;
 }
+	.row {
+		display: flex;
+		flex-wrap: wrap;
+			display: -webkit-flex; /* Safari */
+   			-webkit-flex-wrap: wrap; /* Safari 6.1+ */
+		font-family: Garamond, Verdana, Geneva, sans-serif;
+		width: 100%;
+
+	}
+	.col-flex-3 {
+		flex: 3;
+		padding: 10px;
+	}
+	.col-flex-9 {
+		flex: 9;
+		padding: 10px;
+	}
+	.boxes {
+		display: flex;
+		flex-wrap: wrap;
+			display: -webkit-flex; /* Safari */
+   			-webkit-flex-wrap: wrap; /* Safari 6.1+ */
+		width: 100%;
+	}
+	.box {
+		flex: 1;
+		text-align: center;
+		font-weight: bold;
+		width: 100px;
+		min-height: 90px;
+	}
+  #resumecontent a {
+    color: #262262;
+  }
+	h3 {
+		background: #262262;
+		color: white;
+		font-family: Copperplate, Verdana, Geneva, sans-serif;
+		font-variant:small-caps;
+		border: 1px black solid;
+		display: flex;
+			display: -webkit-flex; /* Safari */
+		align-items: center;
+		margin: 0px;
+	}
+	h4 {
+		color: cornflowerblue;
+		text-align: center;
+	}
+	.spacer {
+		height: 10px;
+	}
+	section .content {
+		border: 1px black solid;
+		padding: 5px;
+	}
+	section#aboutme .content, section#skills .content {
+		background: #d6e1f5;
+	}
+	.intro img {
+		margin-right: 10px;
+	}
+
 #social {
 
 }

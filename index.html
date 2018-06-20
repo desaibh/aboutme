@@ -6,56 +6,370 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <div id="container">
-      <!-- <<header>
-        <div id="menu">
-          <nav>
-            <a href="#Home">🌎</a>
-            <a href="#Resume">Resume</a>
-            <a href="#Contact">Contact</a>
-          </nav>
-        </div>
-        <div id="logo">
-        </div>
-      </header>
-    </div> -->
-    <div id="intro">
-    <canvas id="name" width="1350" height="100">
-    	Bhavika
-    	Desai
-    </canvas>
+    <div class="container">
+      <div id="intro">
 
-    <canvas id="jobTitle" width="300" height="100">
-    	Web Producer
-    </canvas>
+        <canvas id="name" width="1350" height="100">
+        	Bhavika
+        	Desai
+        </canvas>
 
-    <canvas id="work" width="300" height="100">
-    	<ul>
-        <li><a href="portflio">Portfolio</a></li>
-        <li><a href="resume">Resume</a></li>
-        <li><a href="Sitemap">Sitemap</a></li>
-      </ul>
-    </canvas>
+        <canvas id="jobTitle" width="300" height="100">
+        	Web Producer
+        </canvas>
 
-  </div>
 
-  </div>
+        <div class="center">
+          <div class="downarrow">
+            <div class="inner">
+              <a href="#portfolio"><blink>&raquo;</blink></a>
+            </div>
+          </div>
+       </div>
 
-  </div>
-    <h2>Portfolio</h2>
-    <div id="carousel">
     </div>
-    <article id="resume">
-      <div></div>
-    </article>
-    <article>
-      <h2>Resume</h2>
-      <div>
-          Skills
+  </div>
+  <div class="container">
+    <h2 id="portfolio">Portfolio</h2>
+    <div id="carousel"></div>
+    <div style="clear:both"></div>
+    <div class="center">
+      <div class="downarrow">
+        <div class="inner">
+          <a href="#resume"><blink>&raquo;</blink></a>
+        </div>
       </div>
-    </article>
+   </div>
+  </div>
+  <div class="container">
+    <h2 id="resume">
+        Resume
+    </h2>
+    <div id="resumecontent">
+    <div class="row">
+      <div class="col-flex-3">
+
+      		<section id="aboutme">
+            	<div class="heading3">
+                	<h3><img src="images/aboutme-lightbulb.png" alt="lightbulb">About Me</h3>
+                </div>
+                <div class="content">
+               	  <p class="intro"><img src="images/aboutme-bhavika.png" alt="bhavika" align="left">Hello! My name is Bhavika Desai and I’m an experienced web producer,    who is passionate about building interactive projects for the web.</p>
+                	<p> A year and a half ago, I attended General Assembly’s four-month long web development immersive    program to add new skills to my repertoire. I am forward thinking, and I strive to be an asset in a team.</p>
+      			</div>
+            </section>
+            <div class="spacer"></div>
+            <section id="skills">
+            	<div class="heading3">
+                	<h3><img src="images/skills-quill.png" alt="quill">Skills</h3>
+                </div>
+                <div class="content">
+
+                	<h4>UX/UI Prototyping</h4>
+                    <div class="boxes">
+                        <div class="box">
+                        	<img src="images/ninety.gif" alt="90%"><br>
+							Marvel App
+                        </div>
+                        <div class="box">
+                        	<img src="images/eighty.gif" alt="80%"><br>
+							StoryBoard That
+                        </div>
+                        <div class="box">
+                        	<img src="images/ninetyfive.gif" alt="95%"><br>
+							Script Writing
+                        </div>
+                  </div>
+                  <div class="boxes">
+                        <div class="box">
+                            <img src="images/ninetyfive.gif" alt="90%"><br>
+                            Photoshop
+                        </div>
+                        <div class="box">
+                            <img src="images/ninetyfive.gif" alt="80%"><br>
+                            Dreamweaver
+                        </div>
+                        <div class="box">
+                            <img src="images/ninety.gif" alt="95%"><br>
+                            Balsamiq
+                        </div>
+              </div>
+
+
+				  <h4>Web Development</h4>
+                  <div class="boxes">
+                        <div class="box">
+                        	<img src="images/ninety.gif" alt="90%"><br>
+							React
+                        </div>
+                        <div class="box">
+                        	<img src="images/ninety.gif" alt="80%"><br>
+							Node
+                        </div>
+                        <div class="box">
+                        	<img src="images/ninety.gif" alt="95%"><br>
+							Express
+                        </div>
+                  </div>
+                  <div class="boxes">
+                        <div class="box">
+                            <img src="images/ninetyfive.gif" alt="90%"><br>
+                            Javascript ES6
+                        </div>
+                        <div class="box">
+                            <img src="images/ninetyfive.gif" alt="80%"><br>
+                            Bootstrap
+                        </div>
+                        <div class="box">
+                            <img src="images/ninetyfive.gif" alt="95%"><br>
+                            HTML5 / CSS3
+                        </div>
+                  </div>
+
+				  <h4>Test Suites</h4>
+                  <div class="boxes">
+                        <div class="box">
+                        	<img src="images/ninety.gif" alt="90%"><br>
+							Jasmine
+                        </div>
+                        <div class="box">
+                        	<img src="images/eighty.gif" alt="80%"><br>
+							HPQC
+                        </div>
+                        <div class="box">
+
+                        </div>
+                  </div>
+
+
+				  <h4>Search Engine Optimization</h4>
+                  <div class="boxes">
+                        <div class="box">
+                        	<img src="images/ninetyfive.gif" alt="90%"><br>
+							Metatags
+                        </div>
+                        <div class="box">
+                        	<img src="images/ninety.gif" alt="80%"><br>
+							Schema.org
+                        </div>
+                        <div class="box">
+                       		<img src="images/ninety.gif" alt="80%"><br>
+							XML Sitemaps
+                        </div>
+                  </div>
+                  <div class="boxes">
+                        <div class="box">
+                        	<img src="images/ninety.gif" alt="90%"><br>
+							Microdata JSON-LD
+                        </div>
+                        <div class="box">
+                        	<img src="images/eighty.gif" alt="80%"><br>
+							Keyword Analysis
+                        </div>
+                        <div class="box">
+                        	<img src="images/eighty.gif" alt="80%"><br>
+							Webmaster Tools
+                        </div>
+                  </div>
+
+				  <h4>Content Management Systems</h4>
+                  <div class="boxes">
+                        <div class="box">
+                        	<img src="images/ninetyfive.gif" alt="95%"><br>
+							Teamsite
+                        </div>
+                        <div class="box">
+                        	<img src="images/eighty.gif" alt="80%"><br>
+							Sitecore
+                        </div>
+                        <div class="box">
+                       		<img src="images/ninetyfive.gif" alt="95%"><br>
+							Wordpress
+                        </div>
+                  </div>
+
+				  <h4>Databases</h4>
+                  <div class="boxes">
+                        <div class="box">
+                        	<img src="images/ninety.gif" alt="90%"><br>
+							Access (Queries)
+                        </div>
+                        <div class="box">
+                        	<img src="images/eighty.gif" alt="80%"><br>
+							PostGreSQL
+                        </div>
+                        <div class="box">
+                       		<img src="images/ninetyfive.gif" alt="95%"><br>
+							Google Firebase
+                        </div>
+                  </div>
+
+				  <h4>Analytics</h4>
+                  <div class="boxes">
+                        <div class="box">
+                        	<img src="images/ninety.gif" alt="90%"><br>
+							Webtrends
+                        </div>
+                        <div class="box">
+                       		<img src="images/ninetyfive.gif" alt="95%"><br>
+							Google Analytics
+                        </div>
+                        <div class="box">
+                       		<img src="images/ninetyfive.gif" alt="95%"><br>
+							Siteimprove
+                        </div>
+                  </div>
+
+            </div></section>
+            <div class="spacer"></div>
+            <section id="portfolio">
+            	<div class="heading3">
+                	<h3><img src="images/portfolio-checklist.png" alt="lightbulb">Portfolio</h3>
+                </div>
+                <div class="content">
+               	  <p>Portfolio<br>
+                    <a href="http://www.portfoliodesai.com" target="_blank">http://www.portfoliodesai.com</a></p>
+
+                  <p>Bzzylophone<br>
+                    <a href="http://desaibh.github.io/Bzzylophone" target="_blank">http://desaibh.github.io/Bzzylophone</a></p>
+
+                  <p>NYC Restaurant Health Grades<br>
+                    <a href="http://desaibh.github.io/NYCRestaurant-Sanitation" target="_blank">http://desaibh.github.io/NYCRestaurant-Sanitation</a></p>
+
+                    <p>Github<br>
+                    <a href="http://www.github.com/desaibh" target="_blank">http://www.github.com/desaibh</a></p>
+                </div>
+
+            </section>
+
+
+      </div>
+      <div class="col-flex-9">
+
+            <section id="experience">
+            	<div class="heading3">
+                	<h3><img src="images/experience-pencil.png" alt="lightbulb">Experience</h3>
+                </div>
+                <div class="content">
+                    <p><strong>Employee @ CPA.com <br>
+                    June 2017 – Present<br>
+                    Web Producer (aicpastore.com)</strong></p>
+                    <ul>
+                    <li>Tackled JIRA tickets to assist marketing team with    production of webpages to sell conference workshop seats, CPE webcasts and publications,    and developed promotional offers related to these sales.</li>
+                    </ul>
+                    <p><strong>Consultant @ FTI Consulting</strong><br>
+                    <strong>January    2017 – April 2017</strong><br>
+                    <strong>Web    Marketing Coordinator (fticonsulting.com)</strong></p>
+                    <ul>
+                    <li>Produced video-training tutorials for bio    editors, updated bio manuals and checklists, and created a survey to    reinforce policy changes.</li>
+                    <li>Developed reports to manage outdated content on    the public website, created a protected version of a collateral request form    to reduce user error, and developed templated reporting tool in Excel.</li>
+                    <li>Calculated intake requests from a web log, and    produced Google calendars to visualize intake requests by region and    requestor.</li>
+                    <li>Performed quality assurance on product    development initiatives.</li>
+                    <li>Built a project plan for the Our People search    experience: reviewed vendor’s usability assessment on search criteria, assessed    key findings, produced a gap analysis, reconciled spreadsheet used to round    up outstanding headshots, suggested schema.org-related microdata update, recommended    click-to-call and add-to-portfolio functionality, developed mockups, and    prototyped search-sort-filter functionality.</li>
+                    </ul>
+                    <p><strong>Student    @ General Assembly’s Web Development Immersive</strong><br>
+                    <strong>August    2016 - November 2016</strong><br>
+                    <strong>Certified    Full Stack Web Developer</strong><strong> </strong></p>
+                    <p><strong>Consultant    @ New York City, Small Business Services</strong><br>
+                    <strong>April    2015 – June 2016</strong><br>
+                    <strong>Web    Producer (nyc.gov/business)</strong></p>
+                    <ul>
+                    <li>Contributed to Human Centered Design    workshops, produced high- and low-fidelity prototypes, created scripts for    user testing, mapped process flows, built HTML mockups, conducted    search-filter-sort analysis, and worked with business analyst to document    requirements.</li>
+                    <li>Maintained the health of the content with    periodic content audits, gap analysis, content reconciliation plans, website    filter- and sort-related taxonomies,    SEO metadata frameworks, content migration plans, and assisted with other    content-related initiatives.</li>
+                    <li>Reviewed product backlogs for Sprint planning    purposes, conducted user acceptance testing (UAT) to QA new product launches,    and facilitated plans to obtain content-based deliverables.</li>
+                    <li>Managed a large library of website assets and    bitlinks for marketing purposes, and used Siteimprove to monitor and update    broken links.</li>
+                    <li>Pulled website traffic and usage statistics    from Google Analytics to communicate relevant information to agency content    editors.</li>
+                    <li>Used Teamsite to review and publish    agency-developed content on NYC.gov/business, and coordinated with agency    editors as needed. </li>
+                    <li>Created assets using Photoshop, Adobe Acrobat,    and Microsoft Visio.</li>
+                    </ul>
+            <p><strong>Global Academy for Medical Education</strong><br>
+                  <strong>April    2014 – April 2015</strong><br>
+                  <strong>Web    Editor (globalacademycme.com)</strong></p>
+                  <ul>
+                    <li>Built and managed an e-marketing program for    Continuing Medical Education (CME) e-learning courses</li>
+                    <li>Kept records of revenues and invoiced clients    for traffic generated from e-marketing program</li>
+                    <li>Worked with audience development and sales    team to meet goals and manage deliverables</li>
+                    <li>Developed content inventories in Google to    coordinate with business partners</li>
+                    <li>Published content on the Global Academy for    Medical Education website</li>
+                    <li>Provided technical support with Content    Management System (CMS)</li>
+                    <li>Coordinated with marketing teams and IT to    resolve open issues with the CMS</li>
+                    <li>Created and uploaded XML files on PubMed</li>
+                    <li>Produced microsites for CME-certified    supplements</li>
+                    <li>Supplied sales force with metrics to grow    audience generation initiatives</li>
+      			</ul>
+
+                </div>
+            </section>
+            <div class="spacer"></div>
+            <section id="education">
+            	<div class="heading3">
+                	<h3><img src="images/education-chart.png" alt="chart">Education</h3>
+                </div>
+                <div class="content">
+                	<p><strong>
+                      Rutgers University, </strong>Douglass College<br>
+                      September    2001 - May 2005<br>
+                      Double    Major: English Literature and Business, Marketing<br>
+                      G.P.A.    3.513 (Honors, Phi Beta Kappa)<br>
+                      Member:    Douglass Scholars Program</p>
+                      <p><strong>General    Assembly</strong>, Web Development Immersive<br>
+                      August    2016 - November 2016<br>
+                      Certified    Full Stack Web Developer</p>
+                </div>
+            </section>
+            <div class="spacer"></div>
+            <section id="hobbies">
+            	<div class="heading3">
+                	<h3><img src="images/hobbies-fire.png" alt="chart">Hobbies &amp; Interests</h3>
+                </div>
+                <div class="content">
+                	<div class="boxes">
+                    	<div class="box">
+                        	<img src="images/hobby-indie.png" alt="ipod headphones"><br>
+                        	Indie Music
+                        </div>
+                    	<div class="box">
+                        	<img src="images/hobby-writing.png" alt="pencil paper plane"><br>
+                        	Writing Worth Reading
+                        </div>
+                    	<div class="box">
+                        	<img src="images/hobby-tech.png" alt="camera floppy disc"><br>
+                        	Tech Meetups
+                        </div>
+                    	<div class="box">
+                        	<img src="images/hobby-checklist.png" alt="checklist calendar"><br>
+                        	Checklists
+                        </div>
+                    </div>
+                    <div class="boxes">
+                    	<div class="box">
+                        	<img src="images/hobby-jeopardy.png" alt="jeopardy"><br>
+                        	With Alex Trebek
+                        </div>
+                    	<div class="box">
+                        	<img src="images/hobby-ties.png" alt="tie"><br>
+                        	Jersey City Ties
+                        </div>
+                    	<div class="box">
+                        	<img src="images/hobby-books.png" alt="books"><br>
+                        	Book Club!
+                        </div>
+                    	<div class="box">
+                        	<img src="images/hobby-data.png" alt="database wheels turning"><br>
+                        	Data-Driven Development
+                        </div>
+                </div>
+            </div></section>
+
+
+      </div>
+      </div>
+    </div>
+  </div>
+  </div>
     <article id="social">
-      <h2>Contact</div>
+      <h2>Contact</h2>
+        <h2 style="text-align: center;">P: (732) 642-1676 | E: <a href="mailto:desaibh@gmail.com">desaibh@gmail.com</a></h2>
       <div class="facebook"></div>
       <div class="twitter"></div>
       <div class="goodreads"></div>
@@ -73,7 +387,7 @@
       <div class="quote"></div>
     </article>
     <footer>
-      <p>Copyright</p>
+      <p>Copyright 2018. All Rights Reserved.</p>
     </footer>
     <script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript" src="js/carousel.js"></script>
