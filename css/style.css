@@ -1,7 +1,8 @@
 html {
   box-sizing: border-box;
   background-color: #070347;
-]  height: 100vh;
+  height: 100vh;
+  overflow-x: hidden;
 }
 body {
   margin: 0px;
@@ -92,7 +93,6 @@ button {
 #logo {
 
 }
-
 #carousel {
   width: 96%;
   height: 450px;
@@ -107,7 +107,6 @@ a {
 .project {
   display: flex;
   flex-direction: row;
-  min-width: 2%;
   height: 450px;
   background-size: cover;
   background-position: top left;
@@ -116,7 +115,6 @@ a {
 }
 .projectTitle {
   flex: 1;
-  min-width: 40px;
 }
 .projectHeading {
   font-family: 'Copperplate Gothic Light', Copperplate, fantasy;
@@ -134,7 +132,7 @@ a {
 }
 .projectContent {
   padding: 20px;
-  margin: 40px;
+  align-items: center;
 }
 .projectContent h3 {
   font-size: 33px;
