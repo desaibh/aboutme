@@ -10,6 +10,9 @@ body {
   background-color: #070347;
   margin: 0;
 }
+canvas .name {
+  width: 100%;
+}
 #intro {
 	margin: 0;
   padding: 20px;
