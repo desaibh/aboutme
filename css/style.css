@@ -111,7 +111,6 @@ a {
   background-size: cover;
   background-position: top left;
   flex: 1;
-
 }
 .projectTitle {
   flex: 1;
@@ -164,7 +163,7 @@ a {
    			-webkit-flex-wrap: wrap; /* Safari 6.1+ */
 		font-family: Garamond, Verdana, Geneva, sans-serif;
 		width: 100%;
-
+    min-width: 300px;
 	}
 	.col-flex-3 {
 		flex: 3;
