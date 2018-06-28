@@ -159,7 +159,7 @@ a {
 	.row {
 		display: flex;
 		flex-wrap: wrap;
-			display: -webkit-flex; /* Safari */
+			  -webkit-display: flex; /* Safari */
    			-webkit-flex-wrap: wrap; /* Safari 6.1+ */
 		font-family: Garamond, Verdana, Geneva, sans-serif;
 		width: 100%;
