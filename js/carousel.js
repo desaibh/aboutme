@@ -40,7 +40,7 @@ const portfolioItems = [
   },
   {
     project: 'Checkin App',
-    website: 'http://www.herokuapp.com/CheckinApp',
+    website: 'https://checkins-application.herokuapp.com/',
     github: 'http://www.github.com/desaibh/Checkin-App',
     background: 'images/port-appcheckin.gif',
     colorbg: 'rgba(155,154, 159,1)',
