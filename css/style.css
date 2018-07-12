@@ -14,6 +14,13 @@ body {
 canvas .name {
   width: 100%;
 }
+.wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.altbg {
+  background-color: #3365a1;
+}
 #intro {
 	margin: 0;
   padding: 20px;
@@ -150,7 +157,9 @@ a {
 .active {
   flex: 5;
 }
-
+#resume {
+  padding-top: 20px;
+}
 #resumecontent {
   background: white;
   color: black;
