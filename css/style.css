@@ -7,7 +7,7 @@ html {
 body {
   margin: 0px;
   color: white;
-  font-family: Garamond, 'avant garde,' monospace, 'sans-serif';
+  font-family: Georgia, serif, monospace, 'sans-serif';
   background-color: #070347;
   margin: 0;``
 }
@@ -163,14 +163,15 @@ a {
 #resumecontent {
   background: white;
   color: black;
-  font-family: Garamond, monospace;
+  font-family: Georgia, serif, Garamond, monospace;
+  font-size: 16px;
 }
 	.row {
 		display: flex;
 		flex-wrap: wrap;
 			  -webkit-display: flex; /* Safari */
    			-webkit-flex-wrap: wrap; /* Safari 6.1+ */
-		font-family: Garamond, Verdana, Geneva, sans-serif;
+		font-family: Georgia, serif, Garamond, Verdana, Geneva, sans-serif;
 		width: 100%;
     min-width: 300px;
 	}
