@@ -1,24 +1,12 @@
-
-let fn = document.getElementById("name");
-let nctx = fn.getContext("2d");
-
-nctx.font = "30px Copperplate";
-nctx.fillStyle = "hsl(173,100%, 100%)";
-
-let text = "Bhavika Desai, Web Producer";
-let x = 1;
-let x1, y1;
-
-
- function draw() {
-   nctx.fillText(text.substr(0,x), 40, 40);
-   x++;
-   if (x<=text.length) {
-     requestAnimationFrame(draw);
-   }
-
- }
-
- requestAnimationFrame(draw);
-text2="Portfolio, Resume, Sitemap Below";
-requestAnimationFrame(draw);
+<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+<script>
+  var config = {
+    apiKey: "AIzaSyDPQJ2BxwuQKBak5P9hr_4aiy0Ekvjj4Ak",
+    authDomain: "gaby-b0acc.firebaseapp.com",
+    databaseURL: "https://gaby-b0acc.firebaseio.com",
+    projectId: "gaby-b0acc",
+    storageBucket: "gaby-b0acc.appspot.com",
+    messagingSenderId: "997955280566"
+  };
+  firebase.initializeApp(config);
+</script>

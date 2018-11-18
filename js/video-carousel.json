@@ -1,0 +1,42 @@
+<section id="videos">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Videos</h2>
+      </div>
+    </div>
+  </div>
+  <div id="video-carousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#video-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#video-carousel" data-slide-to="1"></li>
+      <li data-target="#video-carousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="item col-xs-4">
+          <p><a href="https://www.facebook.com/chefgabymelian/videos/1256051617844520" target="_blank"> <img src="img/video1.png" alt="importance"></a></p>
+        </div>
+        <div class="item col-xs-4">
+          <p><a href="https://www.facebook.com/chefgabymelian/videos/1256024507847231" target="_blank"> <img src="img/video2.png" alt="importance"></a></p>
+        </div>
+        <div class="item col-xs-4">
+          <p><a href="https://www.youtube.com/watch?v=Oyfz-c3j7Cc" target="_blank"> <img src="img/video6.jpg" alt="importance"></a></p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item col-xs-4">
+          <p><a href="https://www.facebook.com/chefgabymelian/videos/1252474211535594" target="_blank"> <img src="img/video3.png" alt="importance"></a></p>
+        </div>
+        <div class="item col-xs-4">
+          <p><a href="https://www.facebook.com/chefgabymelian/videos/798494736933546"target="_blank"> <img src="img/video4.png" alt="importance"></a></p>
+        </div>
+        <div class="item col-xs-4">
+          <p><a href="https://www.facebook.com/chefgabymelian/videos/1246835128766169"target="_blank"> <img src="img/video5.png" alt="importance"></a></p>
+        </div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#video-carousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#video-carousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> <span class="sr-only">Next</span> </a> 
+    </div>
+
+</section>// JavaScript Document
